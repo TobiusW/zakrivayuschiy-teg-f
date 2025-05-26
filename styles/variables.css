@@ -1,16 +1,16 @@
 :root {
   --font-main: Inter-Variable;
-  --font-accent: PressStart2P-Regular;
-  --font-weight-normal: normal;
-  --font-weight-bold: bold;
+  --font-accent: PressStart2P;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
   --font-size: 18px;
   --font-size-accent: 14px;
   --main-color: #fff;
   --accent-color: #000;
   --lable-stroke-color: #fff;
-  --sections-inline-size: min(100vi, 700px);
-  --header-title-size: 49px;
-  --header-subtitle-size: 14px;
+  --sections-inline-size: 700px;
+  --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --page-background-image:
   repeating-linear-gradient(to left, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
   repeating-linear-gradient(to bottom,#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
